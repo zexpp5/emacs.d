@@ -19,4 +19,7 @@
    (set-selection-coding-system 'utf-8))
   (prefer-coding-system 'utf-8))
 
+;;; my personal customization
+(global-linum-mode 'linum-mode)
+
 (provide 'init-locales)
